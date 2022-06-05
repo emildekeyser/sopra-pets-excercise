@@ -16,12 +16,6 @@ public class PetsWebServiceApplication {
     @Bean
     ApplicationRunner init(PetRepository repository) {
 
-        Object[][] data = {
-            { "Medor", 10 },
-            { "Ed", 14 },
-            { "Salmon", 5 }
-        };
-
         return args -> {
             repository
                 .deleteAll()
@@ -38,4 +32,26 @@ public class PetsWebServiceApplication {
         };
     }
 
+    private static Object[][] data = {
+        { "Medor", 10 },
+        { "Ed", 14 },
+        { "Salmon", 5 },
+        { "Mathew", 65 },
+        { "Tom", 1 },
+        { "Jerry", 56 },
+        { "Tory", 9 },
+        { "Ed", 13 },
+        { "Rene", 4 },
+        { "Sam", 54 },
+        { "Mat", 77 },
+        { "Sophie", 21 },
+        { "Melissa", 6 },
+        { "Vladimir", 98 },
+        { "François", 2 },
+        { "Paul", 76 },
+        { "Adrien", 8 },
+        { "Elodie", 14 },
+        { "Amélie", 53 },
+        { "Enzo", 26 }
+    };
 }
