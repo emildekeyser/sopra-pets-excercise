@@ -29,7 +29,7 @@ public class PetsWebServiceApplication {
                         Flux
                         .just(data)
                         .map(array -> {
-                            return new Pet((String) array[0], (Number) array[1]);
+                            return new Pet(null, (String) array[0], (Number) array[1]);
                         })
                         .flatMap(repository::save)
                         )
