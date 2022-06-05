@@ -1,4 +1,4 @@
-package sopra.exercise.petswebservice;
+package sopra.excercise.petswebservice;
 
 import lombok.AllArgsConstructor;  
 import lombok.Data;  

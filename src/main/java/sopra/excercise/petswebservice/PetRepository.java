@@ -1,4 +1,4 @@
-package sopra.exercise.petswebservice;
+package sopra.excercise.petswebservice;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 

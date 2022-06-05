@@ -1,4 +1,4 @@
-package sopra.exercise.petswebservice;
+package sopra.excercise.petswebservice;
   
 import org.springframework.beans.factory.annotation.Autowired;  
 import org.springframework.stereotype.Controller;  
